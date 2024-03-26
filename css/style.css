@@ -1,0 +1,28 @@
+.image img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.vote_block {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 15px;
+}
+.vote_block button{
+    border: 0;
+    background: none;
+
+}
+
+.vote_block button img{
+    filter: contrast(0.1);
+}
+
+.vote_block button:hover img{
+    filter: contrast(1);
+}
+
+.votes_count {
+    display: inline-block;
+    vertical-align: middle;
+}
